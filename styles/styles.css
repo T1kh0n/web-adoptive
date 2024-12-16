@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper, .header, .main, .footer {
+    width: 100%;
+}
+
+.wrapper {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header {
+    height: 15vh;
+    background-color: #b1b123;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main {
+    height: 70vh;
+    background-color: white;
+    overflow: scroll;
+    position: relative;
+}
+
+.scrollable-content {
+    height: 200%;
+    width: 100%;
+}
+
+.footer {
+    height: 15vh;
+    background-color: #b1b123;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-buttons {
+    background-color: #e7e72a;
+    height: 60%;
+    width: 25%;
+    border-radius: 5px;
+    margin: 0 2% 0 2%;
+    padding: 0 2% 0 2%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.header-buttons img {
+    width: 15%;
+    height: auto;
+}
+
+.header-labels {
+    height: 100%;
+    width: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(1.5vh + 1vw);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-box {
+    background-color: #e7e72a;
+    height: 100%;
+    width: 25%;
+    border: solid 1px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-box img {
+    width: 25%;
+    height: auto;
+}
+
+.main img {
+    float: left;
+    margin: 0 5% 5% 5%;
+    max-width: 90%;
+    height: auto;
+}
+
+.main p {
+    text-align: justify;
+    text-indent: 3%;
+    margin: 1% 1% 1% 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
